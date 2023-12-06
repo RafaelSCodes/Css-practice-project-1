@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- This is a Css project to rewind some basic Css knowledge -->
+
+<!-- Let's put this in 3 steps:
+      1 - How to add Css into Html.
+      2 - Css Selectors.
+      3 - Css Colours.      -->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Capestone Project</title>
+
+    <!-- Css Internal Method -->
+    <style>
+        h2 {
+            color: yellow;
+        }
+    </style>
+
+    <!-- Css External Method (Most used)-->
+    <link rel="stylesheet" href="styles.css"/>
+
+</head>
+
+<body>
+
+ <!-- Ok. First section will be (1) How to add Css into Html -->
+    <!-- Css adding methods are composed by Inline, Internal and External.
+         Inline is for one specific element.
+         Internal is for one webpage.
+         External is for several webpages.   -->
+
+  <section name="section-1">
+    <!-- Css Inline Method -->
+    <h1 style="color: red">Hello, im in Red.</h1>
+
+    <h2>Hello, im in Yellow.</h2>
+
+    <h3>Hello, im in Blue.</h3>
+
+  </section>
+
+  <section name="section-2">
+
+    <h1 class="purple-text">Hello, im  in Purple.</h1>
+    <p id="green-text">Hello, i'm the only paragraph here, so i can have id instead of class. And i'm green.</p>
+    <p draggable="true">I guess there is another paragraph. I'm lighter then the previous one.</p>
+
+  </section>
+
+</body>
+
+</html>

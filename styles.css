@@ -1,0 +1,37 @@
+/* Anything before the curly braces is called a Css Selector.
+   There is many kinds of Css Selectors:
+   1 - Element Selector
+   2 - Class Selector
+   3 - Id Selector
+   4 - Attribute Selector
+   5 - Universal Selector
+*/
+
+/* This is an Universal Selector (It selects everything) */
+* {
+    background-color: #eec0c8;
+}
+
+/* This is an Element Selector (because it targets a specific element) */
+h3 {
+    color:blue;
+}
+
+/* This is a Class Selector (because it targets any element with the same class) */
+.purple-text {
+    color: purple;
+}
+
+/* This is an Id Selector (it works the same as the class selector, but an id is for single element while
+class is for many elements) */
+#green-text {
+    color: green;
+    font-weight: bold;
+    
+}
+
+/* This is the Attribute Selector (you have to put the specific element and then its spefici attribute) */
+p[draggable="true"] {
+    font-weight: bolder;
+    color: aliceblue;
+}
